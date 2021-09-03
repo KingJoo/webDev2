@@ -170,7 +170,10 @@
       <Context docBase="JSPMVCXMLBaseProject" path="/JSPMVCXMLBaseProject" reloadable="true" source="org.eclipse.jst.jee.server:JSPMVCXMLBaseProject">
       <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="10" maxIdle="5" maxWait="-1" name="jdbc/oracle" password="happy" type="javax.sql.DataSource" url="jdbc:oracle:thin:@211.238.142.186:1521:XE" username="hr"/>
       </Context>
-      <Context docBase="JSPMVCProject3" path="/JSPMVCProject3" reloadable="true" source="org.eclipse.jst.jee.server:JSPMVCProject3"/></Host>
+      <Context docBase="JSPMVCProject3" path="/JSPMVCProject3" reloadable="true" source="org.eclipse.jst.jee.server:JSPMVCProject3"/><Context docBase="JSPMVCLastProject" path="/JSPMVCLastProject" reloadable="true" source="org.eclipse.jst.jee.server:JSPMVCLastProject"/><Context docBase="JSPMVCLastProject2" path="/JSPMVCLastProject2" reloadable="true" source="org.eclipse.jst.jee.server:JSPMVCLastProject2"/><Context docBase="JSPMVCLastProject4" path="/JSPMVCLastProject4" reloadable="true" source="org.eclipse.jst.jee.server:JSPMVCLastProject4"/><Context docBase="MVCMovieProject" path="/MVCMovieProject" reloadable="true" source="org.eclipse.jst.jee.server:MVCMovieProject">
+      <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="10" maxIdle="5" maxWait="-1" name="jdbc/oracle" password="happy" type="javax.sql.DataSource" url="jdbc:oracle:thin:@211.238.142.186:1521:XE" username="hr"/>
+      </Context>
+      <Context docBase="MakeController" path="/MakeController" reloadable="true" source="org.eclipse.jst.jee.server:MakeController"/></Host>
     </Engine>
   </Service>
 </Server>
